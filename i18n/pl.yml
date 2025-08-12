@@ -63,7 +63,7 @@ agenda:
       time: "11:00-12:00"
       lang: "[pl]"
       author: "Tomasz Szandała"
-      photo: "/img/ludzie/Szandala.jpg"
+      photo: "/img/ludzie/szandala.jpg"
       desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
     p3:
       title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
@@ -90,6 +90,7 @@ agenda:
       time: "15:30-16:30"
       lang: "[pl]"
       author: "Tomasz Nowicki"
+      photo: "/img/ludzie/nowicki.jpg"
       desc: "<p>Na rynku serwerów coraz częściej możemy spotkać maszyny oparte o architekturę ARM. Chociaż na tle konkurencji wciąż znajdują się w mniejszości, to na rynku utrzymują tendencję wzrostową. Warto zatem przyjrzeć się bliżej architekturze i poznać możliwości sprzętowe.W tematyce wirtualizacji serwery ARM nie mogą odstawać od znanej nam architektury x86_64 dlatego na przestrzeni ostatnich kilku lat doczekaliśmy się kilku znaczących rozszerzeń ukierunkowanych w tym celu. W prezentacji chciałbym przybliżyć architekturę ARMv8 i metody wirtualizacji CPU oraz urządzeń peryferyjnych na przykładzie KVM. Omówię też sposoby optymalizacji, które mogą się przydać podczas zarządzania wirtualnymi maszynami.</p>"
     p7:
       title: "Embedded Linux build systems - wszechstronne porównanie"
