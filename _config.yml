@@ -6,7 +6,7 @@ description: >-
 
 url: "https://15.sesja.linuksowa.pl"
 
-# baseurl: "" (default) or "/<url>" if using as a collective part on one domain e.g. "edycje.linuksowa.pl/14"
+# baseurl: "" (default) or "/<url>" if using as a collective part on one domain e.g. "edycje.linuksowa.pl/15"
 baseurl: ""
 
 # Directory configuration
