@@ -1,39 +1,18 @@
+{% assign sponsors = site.data.sponsors.sponsors %}
 <div id="con-sponsorzy" class="con-bg">
     <span id="sponsorzy" class="anchor-jump-link"></span>
     <div class="con-content">
-        <h2 class="bg-text">{{ t.navigation.sponsors }}</h2>
+        {% assign nav = site.data.navigation.navigation %}
+        <h2 class="bg-text">{{ nav.sponsors[page.lang] | default: nav.sponsors.pl }}</h2>
         <h2 class="spacer">&nbsp;</h2>
         <div class="loga">
-            <div class="logo-axit">
-                <a href="https://kariera.axit.pl/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/AXIT - new logo.webp' | relative_url }}" />
+            {% for sponsor in sponsors %}
+            <div class="logo-{{ sponsor.id }}">
+                <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ sponsor.logo | relative_url }}" />
                 </a>
             </div>
-            <div class="logo-nokia">
-                <a href="https://nokiawroclaw.pl" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/logo-nokia.svg' | relative_url }}" />
-                </a>
-            </div>
-            <div class="logo-cc">
-                <a href="https://clearcode.pl/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/cc-logo-horizontal.webp' | relative_url }}" />
-                </a>
-            </div>
-            <div class="logo-semihalf">
-                <a href="https://www.semihalf.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/semihalf.webp' | relative_url }}" />
-                </a>
-            </div>
-            <div class="logo-mokyoit">
-                <a href="https://mokyokit.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/mok_yok_it.webp' | relative_url }}" />
-                </a>
-            </div>
-            <div class="logo-gl">
-                <a href="https://www.globallogic.com/pl/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ '/img/loga/logo-gl.svg' | relative_url }}" />
-                </a>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>

@@ -1,0 +1,25 @@
+sponsors:
+  - id: axit
+    name: "AXIT"
+    url: "https://kariera.axit.pl/"
+    logo: "img/loga/axit.webp"
+  - id: nokia
+    name: "Nokia"
+    url: "https://nokiawroclaw.pl"
+    logo: "img/loga/logo-nokia.svg"
+  - id: cc
+    name: "ClearCode"
+    url: "https://clearcode.pl/"
+    logo: "img/loga/cc-logo-horizontal.webp"
+  - id: semihalf
+    name: "Semihalf"
+    url: "https://www.semihalf.com/"
+    logo: "img/loga/semihalf.webp"
+  - id: mokyoit
+    name: "Mok Yok IT"
+    url: "https://mokyokit.com/"
+    logo: "img/loga/mok_yok_it.webp"
+  - id: gl
+    name: "GlobalLogic"
+    url: "https://www.globallogic.com/pl/"
+    logo: "img/loga/logo-gl.svg"
